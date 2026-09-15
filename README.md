@@ -62,3 +62,110 @@ Final Test Evaluation
 Save Trained Pipeline
       ↓
 Streamlit Application
+
+---
+
+##  Technologies Used
+
+### Programming
+- Python
+
+### Machine Learning
+- Scikit-learn
+- TF-IDF Vectorization
+- Logistic Regression
+- Multinomial Naive Bayes
+- Cross-Validation
+
+### Data Processing
+- Pandas
+- NumPy
+
+### PDF Processing
+- PyPDF
+
+### Application & Deployment
+- Streamlit
+- Joblib
+- Git
+- GitHub
+- Streamlit Community Cloud
+
+---
+
+##  Model Development
+
+Two machine learning approaches were evaluated for resume text classification:
+
+- Multinomial Naive Bayes
+- Logistic Regression
+
+The models were evaluated using stratified cross-validation on the training data.
+
+The best-performing model was selected and then retrained on the complete training set before final evaluation on the held-out test set.
+
+The final trained pipeline was saved as:
+
+```text
+resume_classifier.pkl
+
+
+### Then add: Evaluation
+
+Since your actual Version 3 test result was 100% on the 25-resume held-out test set, you can document it, but **qualify it properly**:
+
+```markdown
+---
+
+##  Model Evaluation
+
+The selected model was evaluated on a held-out test set using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+
+### Test Result
+
+- Test samples: 25
+- Correct predictions: 25
+- Incorrect predictions: 0
+- Accuracy: 100%
+- Macro F1-score: 1.00
+
+These results are specific to the current manually constructed prototype dataset and test split. They should not be interpreted as production-level hiring accuracy.
+
+---
+
+##  Application Features
+
+- Upload PDF resumes through the Streamlit interface.
+- Extract resume text automatically.
+- Classify resumes as **Shortlist** or **Review**.
+- Display Shortlist and Review probability estimates.
+- Display model confidence.
+- Flag low-confidence predictions for additional human review.
+- Provide an interactive browser-based interface.
+
+---
+
+##  Application Workflow
+
+```text
+PDF Resume
+     ↓
+Text Extraction
+     ↓
+Saved ML Pipeline
+     ↓
+TF-IDF Transformation
+     ↓
+Classification
+     ↓
+Shortlist / Review
+     ↓
+Probability Estimates
+     ↓
+Low-Confidence Warning

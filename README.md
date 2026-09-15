@@ -166,4 +166,42 @@ Probability Estimates
 ↓  
 Low-Confidence Warning
 
+---
 
+## ▶️ Run Locally
+
+```bash
+git clone https://github.com/Yukthesh14/Resume-Screening-System.git
+cd Resume-Screening-System
+pip install -r requirements.txt
+streamlit run app.py
+
+---
+
+## ⚠️ Limitations
+
+- The current dataset is relatively small.
+- The dataset is manually constructed for learning and demonstration.
+- Resume wording can significantly influence predictions.
+- The model may perform poorly on terminology that was not sufficiently represented in the training data.
+- Model probability estimates should not be interpreted as guaranteed probabilities of correctness.
+- The current system performs general resume classification rather than matching a resume against a specific job description.
+- The confidence threshold used in the application is a prototype setting and has not been optimized using a large validation dataset.
+
+---
+
+## 🔮 Future Improvements
+
+- Expand the training dataset with more representative resume examples.
+- Introduce job-description-specific resume matching.
+- Improve probability calibration.
+- Optimize the confidence threshold using validation data.
+- Add DOCX resume support.
+- Add structured resume information extraction.
+- Perform more systematic error analysis.
+- Add model monitoring and performance tracking.
+- Improve the user interface and reporting features.
+
+## 👨‍💻 Author
+
+**Motepalli Yukthesh**

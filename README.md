@@ -166,5 +166,4 @@ Probability Estimates
 ↓  
 Low-Confidence Warning
 
----
-Low-Confidence Warning
+

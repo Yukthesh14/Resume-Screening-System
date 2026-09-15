@@ -40,37 +40,38 @@ The application also displays the model's estimated probability for each class a
 
 ---
 
-##  Machine Learning Workflow
+## 🧠 Machine Learning Workflow
 
-```text
-Resume Dataset
-      ↓
-Data Preparation
-      ↓
-Train / Test Split
-      ↓
-TF-IDF Vectorization
-      ↓
-Model Training
-      ↓
-Cross-Validation
-      ↓
-Best Model Selection
-      ↓
-Final Test Evaluation
-      ↓
-Save Trained Pipeline
-      ↓
+Resume Dataset  
+↓  
+Data Preparation  
+↓  
+Train / Test Split  
+↓  
+TF-IDF Vectorization  
+↓  
+Model Training  
+↓  
+Cross-Validation  
+↓  
+Best Model Selection  
+↓  
+Final Test Evaluation  
+↓  
+Save Trained Pipeline  
+↓  
 Streamlit Application
 
 ---
 
-##  Machine Learning Workflow
+## 🛠️ Technologies Used
 
 ### Programming
+
 - Python
 
 ### Machine Learning
+
 - Scikit-learn
 - TF-IDF Vectorization
 - Logistic Regression
@@ -78,13 +79,16 @@ Streamlit Application
 - Cross-Validation
 
 ### Data Processing
+
 - Pandas
 - NumPy
 
 ### PDF Processing
+
 - PyPDF
 
 ### Application & Deployment
+
 - Streamlit
 - Joblib
 - Git
@@ -93,7 +97,7 @@ Streamlit Application
 
 ---
 
-##  Model Development
+## 🤖 Model Development
 
 Two machine learning approaches were evaluated for resume text classification:
 
@@ -106,12 +110,11 @@ The best-performing model was selected and then retrained on the complete traini
 
 The final trained pipeline was saved as:
 
-```text
-resume_classifier.pkl
+`resume_classifier.pkl`
 
 ---
 
-##  Model Evaluation
+## 📊 Model Evaluation
 
 The selected model was evaluated on a held-out test set using:
 
@@ -129,11 +132,11 @@ The selected model was evaluated on a held-out test set using:
 - Accuracy: 100%
 - Macro F1-score: 1.00
 
-These results are specific to the current manually constructed prototype dataset and test split. They should not be interpreted as production-level hiring accuracy.
+These results are specific to the current manually constructed dataset and test split. They should not be interpreted as production-level hiring accuracy.
 
 ---
 
-##  Application Features
+## 💻 Application Features
 
 - Upload PDF resumes through the Streamlit interface.
 - Extract resume text automatically.
@@ -145,21 +148,23 @@ These results are specific to the current manually constructed prototype dataset
 
 ---
 
-##  Application Workflow
+## 🔄 Application Workflow
 
-```text
-PDF Resume
-     ↓
-Text Extraction
-     ↓
-Saved ML Pipeline
-     ↓
-TF-IDF Transformation
-     ↓
-Classification
-     ↓
-Shortlist / Review
-     ↓
-Probability Estimates
-     ↓
+PDF Resume  
+↓  
+Text Extraction  
+↓  
+Saved ML Pipeline  
+↓  
+TF-IDF Transformation  
+↓  
+Classification  
+↓  
+Shortlist / Review  
+↓  
+Probability Estimates  
+↓  
+Low-Confidence Warning
+
+---
 Low-Confidence Warning

@@ -10,7 +10,7 @@ The application uses a trained text-classification pipeline and provides the pre
 
 ##  Source Code
 
-**[GitHub Repository](YOUR_GITHUB_URL)**
+**[GitHub Repository](https://github.com/Yukthesh14/Resume-Screening-System/blob/main/model_training.ipynb)**
 
 ---
 

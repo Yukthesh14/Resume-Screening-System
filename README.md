@@ -170,11 +170,39 @@ Low-Confidence Warning
 
 ## ▶️ Run Locally
 
+### 1. Clone the repository
+
 ```bash
 git clone https://github.com/Yukthesh14/Resume-Screening-System.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
 cd Resume-Screening-System
+```
+
+### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
+
+### 4. Run the Streamlit application
+
+```bash
 streamlit run app.py
+```
+
+---
+
+## ☁️ Deployment
+
+The application is deployed using **Streamlit Community Cloud**.
+
+### Live Application
+
+[Launch the Resume Screening System](https://resume-screening-system-e6upxnzhsja3dbzuntgud2.streamlit.app/)
 
 ---
 
@@ -190,6 +218,22 @@ streamlit run app.py
 
 ---
 
+## 🔐 Responsible Use
+
+This application is intended as a **resume-screening decision-support system**, not as an autonomous hiring decision system.
+
+For real-world recruitment use, additional validation would be required, including:
+
+- Representative and sufficiently large training data
+- Human oversight of model predictions
+- Fairness and bias evaluation
+- Privacy and data protection measures
+- Monitoring of model performance after deployment
+
+Users should avoid uploading confidential or sensitive candidate information to the public demonstration application.
+
+---
+
 ## 🔮 Future Improvements
 
 - Expand the training dataset with more representative resume examples.
@@ -202,6 +246,14 @@ streamlit run app.py
 - Add model monitoring and performance tracking.
 - Improve the user interface and reporting features.
 
+---
+
 ## 👨‍💻 Author
 
 **Motepalli Yukthesh**
+
+---
+
+
+
+

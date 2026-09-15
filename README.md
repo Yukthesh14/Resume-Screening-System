@@ -65,7 +65,7 @@ Streamlit Application
 
 ---
 
-##  Technologies Used
+##  Machine Learning Workflow
 
 ### Programming
 - Python
@@ -109,12 +109,6 @@ The final trained pipeline was saved as:
 ```text
 resume_classifier.pkl
 
-
-### Then add: Evaluation
-
-Since your actual Version 3 test result was 100% on the 25-resume held-out test set, you can document it, but **qualify it properly**:
-
-```markdown
 ---
 
 ##  Model Evaluation
